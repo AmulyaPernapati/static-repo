@@ -1,0 +1,28 @@
+<html>
+	{% load static %}
+	<head>
+		<link rel="stylesheet" href="{% static "css/1.css" %}" >
+	</head>
+	<body bgcolor="grey">
+		<center>
+			<h1><u>{{name}}'s favorites</u></h1>
+		</center>
+		<div>
+			<h2>Player:{{player}}</h2>
+			<h3><a href="https://en.wikipedia.org/wiki/MS_Dhoni">click here to know more></a></h3>
+			<img src="{% static "images/dhoni.jpg" %}">
+		</div>
+		<br>
+		<div>
+			<h2>Animal:{{animal}}</h2>
+			<h3><a href="https://simple.wikipedia.org/wiki/Lion#:~:text=The%20lion%20(Panthera%20leo)%20is,areas%20with%20trees%20and%20grass.">click here to know more></a></h3>
+			<img src="{% static "images/lion.jpg" %}">
+		</div>
+		<br>
+		<div>
+			<h2>Subject:{{subject}}</h2>
+			<h3><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">click here to know more></a></h3>
+			<img src="{% static "images/py.jpg" %}">
+		</div>
+	</body>
+</html>
