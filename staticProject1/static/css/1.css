@@ -16,8 +16,7 @@ h3
 {
 	color:green;
 }
-div
-{
-	display:flex;
-	justify_content:space_between;
+div{
+  display: flex;
+  justify-content:space-around;
 }
